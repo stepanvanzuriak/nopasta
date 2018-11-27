@@ -1,0 +1,58 @@
+{
+  "name": "nopasta",
+  "displayName": "NoPasta",
+  "publisher": "Stepan Vanzuriak",
+  "description": "Extension that defend your project from copy-paste",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.29.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Nopasta extensions",
+      "properties": {
+        "nopasta.maxBufferSize": {
+          "type": "integer",
+          "default": 64,
+          "description": "Max buffer size"
+        }
+      }
+    },
+    "keybindings": [
+      {
+        "command": "nopasta.copy",
+        "key": "ctrl+c",
+        "mac": "cmd+c",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "nopasta.paste",
+        "key": "ctrl+v",
+        "mac": "cmd+v",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^8.10.25",
+    "eslint": "^4.11.0",
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.21"
+  },
+  "dependencies": {
+    "clipboardy": "^1.2.3"
+  }
+}
