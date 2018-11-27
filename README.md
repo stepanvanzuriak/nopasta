@@ -1,6 +1,6 @@
 # nopasta :spaghetti: :no_entry_sign:
 
-Deadly simple extension that protect you from copy-past everything in project.
+Deadly simple extension that protect you from copy-paste everything in project.
 
 Select level and set maxBufferSize
 
