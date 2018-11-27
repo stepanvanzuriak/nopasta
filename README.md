@@ -6,7 +6,7 @@ Select level and set maxBufferSize
 
 - 100 > - Easy
 - 50-100 - Normal
-- 10-50 - Normal
+- 10-50 - Hard
 - 0-10 - Nightmare
 
 ## Features
