@@ -5,7 +5,7 @@
   "repository": "https://github.com/stepanvanzuriak/nopasta",
   "icon": "./spaghetti_1f35d.png",
   "description": "Extension that defend your project from copy-paste",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.29.0"
   },
