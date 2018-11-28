@@ -1,7 +1,9 @@
 {
   "name": "nopasta",
   "displayName": "NoPasta",
-  "publisher": "Stepan Vanzuriak",
+  "publisher": "StepanVanzuriak",
+  "repository": "https://github.com/stepanvanzuriak/nopasta",
+  "icon": "./spaghetti_1f35d.png",
   "description": "Extension that defend your project from copy-paste",
   "version": "0.0.1",
   "engines": {

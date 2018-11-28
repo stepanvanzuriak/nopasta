@@ -1,4 +1,4 @@
-# nopasta :spaghetti: :no_entry_sign:
+# nopasta 🍝 ⛔
 
 Deadly simple extension that protect you from copy-past everything in project.
 
@@ -20,9 +20,3 @@ Gif explain everything
 This extension contributes the following settings:
 
 - `nopasta.maxBufferSize`: Max size of copy buffer
-
-## Release Notes
-
-### 0.0.1
-
-Initial release of nopasta
